@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css1.css" />
+<style>
+ul,ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+ul {width:100%;}
+
+
+li {
+    float:left;
+}
+ol li{float:none;}
+.li1{padding-right:300px;
+     padding-left:100px;
+	 font-family:fantasy;}
+.li2{padding-right:50px}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+	color:#116466;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+ol{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+ol a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+ol a:hover {background-color: #f1f1f1}
+
+.li2:hover ol {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li class="li1"><a>Gamezone</a></li>
+  <li><a href="#id8">Pc</a></li>
+  <li><a href="#id9">Ps4</a></li>
+  <li><a href="#id10">Xbox</a></li>
+  <li><a href="#id11">Switch</a></li>
+  <li><a href="#id9">Ps3</a></li>
+  <li><a href="#id12">Vita</a></li>
+  <li><a href="#id13">Android</a></li>
+  <li class="li2"><a href="#news">Category</a>
+   <ol>
+   <li><a href="#id1">Action</a></li>
+   <li><a href="#id2">Adventure</a></li>
+   <li><a href="#id3">Simulation</a></li>
+   <li><a href="#id4">Puzzle</a></li>
+   <li><a href="#id5">Shooting</a></li>
+   <li><a href="#id6">Sports</a></li>
+   <li><a href="#id7">RPG</a></li>
+    </ol> </li>
+  <li onclick="document.getElementById('id01').style.display='block'"><a href="#news">Sign Up</a></li>
+  <li onclick="document.getElementById('id02').style.display='block'"><a href="#news">Login</a></li>
+
+</ul>
+
+
+<div id="cssSlider">
+  <div id="sliderImages">
+		<a href="#"><img id="si_1" src="GOW.jpg" alt="" /></a>
+		<a href="#"><img id="si_2" src="fortnite.jpg" alt="" /></a>
+		<a href="#"><img id="si_3" src="gta.jpg" alt="" /></a>
+		<a href="pubg.html"><img id="si_4" src="Pubg.jpg" alt="" /></a>
+		<a href="#"><img id="si_5" src="mario.jpg" alt="" /></a>
+		<a href="#"><img id="si_6" src="acreed.jpg" alt="" /></a>
+		<a href="#"><div style="clear:left;"></div>
+	</div>
+</div>
+<div class="category">
+   <h3 id="id1" style="color:white;text-decoration:none;">Action</h3>
+   <div class="p1"><div><a href="#"><img src="a1.jpg"></a><br>Far Cry 5</div> <div><a href="#"><img src="a2.jpg"></a><br>CALL Of Duty WW2</div><div><a href="pubg.html"><img src="a3.jpg"></a><br>PlayerUnknownsBattleground</div>  </div>
+   <h3 id="id2">Adventure</h3>
+   <div class="p1"><div><a href="#"><img src="ad1.jpg"></a><br>Minecraft</div> <div><a href="#"><img src="ad2.jpg"></a><br>Myst</div> <div><a><img src="ad3.jpg"></a><br>A way out</div>  </div>
+   <h3 id="id3">Simulation</h3>
+   <div class="p1"><div><a href="#"><img src="s1.jpg"></a><br>The Sims 4</div> <div><a href="#"><img src="s2.jpg"></a><br>City sky line</div> <div></a><img src="s3.jpg"></a><br>Spore</div>  </div>
+   <h3 id="id4">Puzzle</h3>
+   <div class="p1"><div><a href="#"><img src="p1.jpg"></a><br>Portal</div> <div><a href="#"><img src="p2.jpg"></a><br>Jewel quest</div> <div><a href="#"><img src="p3.jpg"></a><br>Doodle God</div>  </div>
+   <h3 id="id5">Shooting</h3>
+   <div class="p1"><div><a href="#"><img src="t1.jpg"></a><br>Doom</div> <div><a href="#"><img src="t2.jpg"></a><br>Counter strike</div> <div><a href="#"><img src="t3.jpg"></a><br>Overwatch</div>  </div>
+   <h3 id="id6">Sports</h3>
+   <div class="p1"><div><a href="#"><img src="q1.jpg"></a><br>FIFA 18</div> <div><a href="#"><img src="q2.jpg"></a><br>Mario tennis</div> <div><a href="#"><img src="q3.jpg"></a><br>Rocket league</div>  </div>
+   <h3 id="i7">RPG</h3>
+   <div class="p1"><div><a href="#"><img src="r1.jpg"></a><br>Dark souls</div> <div><a href="#"><img src="r2.jpg"></a><br>Mass effect</div> <div><a href="#"><img src="r3.jpg"></a><br>Fallout 4</div>  </div>
+   <h3 id="id8">Pc</h3>
+   <div class="p1"><div><a href="#"><img src="a1.jpg"></a><br>Far Cry 5</div> <div><a href="#"><img src="a2.jpg"></a><br>CALL Of Duty WW2</div><div><a href="pubg.html"><img src="a3.jpg"></a><br>PlayerUnknownsBattleground</div>  </div>
+   <h3 id="id9">Ps3/Ps4</h3>
+   <div class="p1"><div><a href="#"><img src="gta1.jpg"></a><br>gta 5</div> <div><a href="#"><img src="ps2.jpg"></a><br>Injustice 2</div><div><a href="pubg.html"><img src="ps3.jpg"></a><br>Takken 7</div>  </div>
+   <h3 id="id10">Xbox</h3>
+   <div class="p1"><div><a href="#"><img src="q1.jpg"></a><br>FIFA 18</div> <div><a href="#"><img src="gta1.jpg"></a><br>gta 5</div><div><a href="pubg.html"><img src="a3.jpg"></a><br>PlayerUnknownsBattleground</div>  </div>
+   <h3 id="id11">Switch</h3>
+   <div class="p1"><div><a href="#"><img src="sw1.jpg"></a><br>Splatooon 2</div> <div><a href="#"><img src="sw2.jpg"></a><br>Arms 2</div><div><a href="pubg.html"><img src="sw3.jpg"></a><br>LegendOfZelda</div>  </div>
+   <h3 id="id12">Vita</h3>
+   <div class="p1"><div><a href="#"><img src="v1.jpg"></a><br>Persona 4</div> <div><a href="#"><img src="v2.jpg"></a><br>Gravity rush</div><div><a href="pubg.html"><img src="ad1.jpg"></a><br>Minecraft</div>  </div>
+   <h3 id="id13">Android</h3>
+   <div class="p1"><div><a><img src="an1.jpg"></a><br>Pokemon go</div> <div><a href="#"><img src="an2.jpg"></a><br>Clash of clan</div><div><a href="pubg.html"><img src="p1.jpg"></a><br>Portal</div>  </div>
+
+</div>
+ 
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<script>
+
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
